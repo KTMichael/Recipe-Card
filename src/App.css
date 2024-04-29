@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'Outfit';
+  src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Young';
+  src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+
+html, body {
+  text-align: center;
+  background-color: #F3E5D7;
+  height: 100%;
+}
+
+/* Recipe Card */
+.Recipe-Card {
+  background-color: #FEFFFF;
+  margin: 30px auto;
+  width: 40%;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+  gap: 10px;
+  font-size: 12px;
+  color: #5E5452; /* text color */
+  font-family: Outfit;
+}
+
+.Recipe-Photo {
+  max-height: 100%; 
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.RecipeCard-Header {
+  text-align: left;
+  font-family: Young;
+  font-size: 18px;
+}
+
+.Description {
+  font-family: Outfit;
+  text-align: left;
+  color: #5E5452 /* text color */
+}
+
+.Section-Title {
+  color: #794430;
+  font-family: Young;
+  font-size: 16px;
+}
+
+.Divider-Line {
+  width: 100%;
+  border: .5px solid #d7d7d7;
+}
+
+/* Lists */
+.List-Title {
+  font-weight: 700;
+}
+
+ul {
+  margin: 10px auto 0px auto;
+  vertical-align: middle;
+  text-align: left;
+}
+
+li {
+  color: #763652; /* bullet color */
+  font-size: 10px;
+  padding-left: 10px;
+  margin-left: -25px;
+  padding-bottom: 8px;
+  font-weight: 800;
+}
+
+li span {
+  font-size: 10px;
+  color: #5E5452; /* text color */
+  font-weight: 500;
+}
+
+/* Preparation Section */
+
+.Preparation-Section {
+  background-color: #FFF6FC;
+  text-align: left;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.Preparation-Title {
+  color: #763652;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* Ingredients Section */
+
+.Ingredients-Section {
+  text-align: left;
+}
+
+/* Instructions Section */
+
+.Instructions-Section {
+  text-align: left;
+}
+
+
+/* Nutrition Section */
+
+.Nutrition-Section {
+  text-align: left;
+}
+
+.Nutrition-Table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:not(:last-child) {   width: 100%;
+  border-bottom: .5px solid #d7d7d7; }
+
+td {
+  padding: 10px 0px 10px 20px;
+}
+
+.Nutrient-Amount {
+  color: #794430;
+  font-weight: 700;
+}
