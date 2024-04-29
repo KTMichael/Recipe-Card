@@ -1,6 +1,15 @@
+Simple Recipe Card
+
+
+
+https://github.com/KTMichael/Recipe-Card/assets/75282681/97f91402-7d1d-4816-898f-6095dec0578a
+
+
 ## Available Scripts
 
+
 In the project directory, you can run:
+
 
 ### `npm start`
 
